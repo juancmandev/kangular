@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kangular-d2d4f": {
+      "hosting": {
+        "kangular": [
+          "kangular-d2d4f"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kangular-d2d4f"
+  }
+}

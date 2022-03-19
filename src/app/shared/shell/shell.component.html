@@ -23,7 +23,7 @@
           menu
         </mat-icon>
       </button>
-      <a mat-button class="logo" routerLink="/">🔥 Kangular</a>
+      <a mat-button class="logo" [routerLink]="['/']">🔥 Kangular</a>
       <span class="fill-space"></span>
       <div *ngIf="!(isHandset$ | async)">
         <a mat-button routerLink="/kanban">🍱 Kanban Demo</a>
