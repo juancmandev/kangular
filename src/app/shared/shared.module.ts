@@ -41,7 +41,6 @@ const modules = [
 @NgModule({
     declarations: [
         ...components,
-        DeleteButtonComponent
   ],
   imports: [
       ...modules,
