@@ -4,6 +4,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { tap } from 'rxjs';
 import { SeoService } from 'src/app/services/seo.service';
 import { Observable } from 'rxjs';
+import { CustomerDataService } from '../customer-data.service';
 
 @Component({
     selector: 'app-detail-page',
@@ -17,16 +18,14 @@ export class DetailPageComponent implements OnInit {
     constructor(
         private route: ActivatedRoute,
         private db: AngularFirestore,
-        private seo: SeoService
+        private seo: SeoService,
+        public data: CustomerDataService
     ) { }
 
     ngOnInit(): void {
         this.customerId = this.route.snapshot.paramMap.get('id');
 
-        this.customer = this.db
-            .collection('customers')
-            .doc<any>(this.customerId)
-            .valueChanges()
+        this.customer = this.data.getCustomer(this.customerId)
             .pipe(
                 tap(cust => {
                     this.seo.generateTags({
@@ -37,5 +36,4 @@ export class DetailPageComponent implements OnInit {
                 })
             );
     }
-
 }

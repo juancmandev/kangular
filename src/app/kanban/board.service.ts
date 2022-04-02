@@ -4,6 +4,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 import firebase from 'firebase/compat/app';
 import { switchMap } from 'rxjs';
 import { Board } from './board.model';
+import { Task } from './board.model';
 
 @Injectable({
     providedIn: 'root'
