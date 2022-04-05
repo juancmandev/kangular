@@ -10,7 +10,7 @@ A kanban developed with 🅰️ [Angular](https://angular.io/) and 🔥 [Firebas
 ## What I've learned developing this project?
 - ♻️ Build reusable pieces of UI with the Angular Components
 -  🚕 Consume services from 🔥 Firebase and 🔎 Google
-- 🤚 Drag and drop components form Angular Material
+- 🤚 Drag and drop components with Angular Material
 - ⚛ Reactive Forms
 
 👇🏻 If you want to run this project on your PC, follow the instructions below. Remember change the Firebase credentials!
