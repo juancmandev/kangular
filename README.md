@@ -1,4 +1,21 @@
-# Kangular
+# 📋 Kangular
+A kanban developed with 🅰️ [Angular](https://angular.io/) and 🔥 [Firebase](https://firebase.google.com/).
+ 🎮 You can play with the project [here!](https://kangular-d2d4f.firebaseapp.com/)
+![Kangular project example](https://i.imgur.com/xGkI6ig.png)
+## What I've used for this project?
+- 🧱 Angular Material
+- 💾 Firestore
+- 🔥 Firebase services
+
+## What I've learned developing this project?
+- ♻️ Build reusable pieces of UI with the Angular Components
+-  🚕 Consume services from 🔥 Firebase and 🔎 Google
+- 🤚 Drag and drop components form Angular Material
+- ⚛ Reactive Forms
+
+👇🏻 If you want to run this project on your PC, follow the instructions below. Remember change the Firebase credentials!
+
+## How tu run this project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
